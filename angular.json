@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "ngPokemonApp"
+  "defaultProject": "ngPokemonApp",
+  "cli": {
+    "analytics": "4393a8b5-836a-47fd-ab49-4590645cbadb"
+  }
 }
