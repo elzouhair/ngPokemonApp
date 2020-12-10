@@ -24,5 +24,9 @@ export class DetailPokemonComponent implements OnInit {
   retour():void{
     this.router.navigate(['/pokemon']);
   }
+  editerPokemon(pokemonToEdit: Pokemon):void{
+    const link=['pokemon/edit',pokemonToEdit.id];
+    this.router.navigate(link);
+  }
 
 }

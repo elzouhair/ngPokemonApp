@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { BorderCardDirective } from './shared/directives/border-card.directive';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PokemonsModule } from './pokemons/pokemons.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
