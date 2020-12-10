@@ -15,3 +15,20 @@ INFOS: Unsupported notification method: $/setTraceNotification
 2020.12.08 10:17:08 WARN  Build server is not auto-connectable.
 2020.12.08 10:17:08 WARN  no build tool detected in workspace 'C:\Users\Toshiba 5eme\Desktop\USPN\angular\tp1\ngPokemonApp'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.12.08 12:08:44 INFO  shutting down Metals
+2020.12.08 12:10:25 INFO  Started: Metals version 0.9.7 in workspace 'C:\Users\Toshiba 5eme\Desktop\USPN\angular\tp1\ngPokemonApp' for client vscode.
+2020.12.08 12:10:27 INFO  time: initialize in 1.44s
+2020.12.08 12:10:33 WARN  Build server is not auto-connectable.
+2020.12.08 12:10:33 WARN  no build tool detected in workspace 'C:\Users\Toshiba 5eme\Desktop\USPN\angular\tp1\ngPokemonApp'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.08 12:30:49 INFO  shutting down Metals
+2020.12.09 11:38:03 INFO  Started: Metals version 0.9.7 in workspace 'C:\Users\Toshiba 5eme\Desktop\USPN\angular\tp1\ngPokemonApp' for client vscode.
+2020.12.09 11:38:06 INFO  time: initialize in 3.06s
+2020.12.09 11:38:10 WARN  Build server is not auto-connectable.
+2020.12.09 11:38:10 WARN  no build tool detected in workspace 'C:\Users\Toshiba 5eme\Desktop\USPN\angular\tp1\ngPokemonApp'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.12.09 12:15:10 INFO  shutting down Metals
+2020.12.10 11:37:44 INFO  Started: Metals version 0.9.7 in workspace 'C:\Users\Toshiba 5eme\Desktop\USPN\angular\tp1\ngPokemonApp' for client vscode.
+2020.12.10 11:37:46 INFO  time: initialize in 1.53s
+2020.12.10 11:37:49 WARN  Build server is not auto-connectable.
+2020.12.10 11:37:49 WARN  no build tool detected in workspace 'C:\Users\Toshiba 5eme\Desktop\USPN\angular\tp1\ngPokemonApp'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+déc. 10, 2020 1:18:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTraceNotification
+2020.12.10 13:19:05 INFO  shutting down Metals
