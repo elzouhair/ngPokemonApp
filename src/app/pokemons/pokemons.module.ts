@@ -7,6 +7,7 @@ import { PokemonFormComponent } from './pokemon-form/pokemon-form.component';
 import { FormsModule } from '@angular/forms';
 import { PokemonEditComponent } from './pokemon-edit/pokemon-edit.component';
 import { BorderCardDirective } from '../shared/directives/border-card.directive';
+import { SearchPokemonComponent } from './search-pokemon/search-pokemon.component';
 
 
 
@@ -17,7 +18,8 @@ import { BorderCardDirective } from '../shared/directives/border-card.directive'
     PokemonTypeColorPipe,
     PokemonFormComponent,
     PokemonEditComponent,
-    BorderCardDirective
+    BorderCardDirective,
+    SearchPokemonComponent
   ],
   imports: [
     CommonModule,

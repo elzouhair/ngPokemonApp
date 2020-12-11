@@ -37,8 +37,12 @@ export class PokemonFormComponent implements OnInit {
   }
   onSubmit():void{
     console.log('Submit form !');
-    const link = ['/pokemon',this.pokemon.id];
-    this.router.navigate(link);
+    
+    this.pokemonsService.updatePokemon(this.pokemon).
+    subscribe(() => this.goBack());
+  }
+  goBack():void{
+    this.router.navigate(['/pokemon',this.pokemon.id]);
   }
   isTypeValid(type:string):boolean{
     if(this.pokemon.types?.length===1 && this.hasType(type)){
@@ -49,4 +53,5 @@ export class PokemonFormComponent implements OnInit {
     }
     return true;
   }
+  
 }

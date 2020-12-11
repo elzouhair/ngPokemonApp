@@ -2,9 +2,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BorderCardDirective } from './shared/directives/border-card.directive';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PokemonsModule } from './pokemons/pokemons.module';
+import { HttpClientModule } from '@angular/common/http'
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService } from './shared/in-memory-data.service';
 
 @NgModule({
   declarations: [
@@ -13,8 +15,11 @@ import { PokemonsModule } from './pokemons/pokemons.module';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService,{dataEncapsulation: false}),
     AppRoutingModule,
-    PokemonsModule
+    PokemonsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
